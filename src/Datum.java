@@ -210,7 +210,7 @@ public class Datum {
 	 */
 	public void setMjesec(int mjesec) {
 		if (mjesec < 0 || mjesec >= 12) {
-			throw new IllegalArgumentException("Taj mjesec ne posotoji!");
+			throw new IllegalArgumentException("Taj mjesec ne postoji!");
 		} else {
 			this.mjesec = mjesec;
 		}
